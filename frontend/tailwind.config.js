@@ -16,8 +16,12 @@ module.exports = {
         grayy:'#c0c0c0',
         bluee:'#3a6ea5',
         darkBlue:'#004e98',
-        grayyy:"#264653"
+        grayyy:"#264653",
+        Bluee:"#3B60CA"
       },
+      fontFamily:{
+        popins:['Poppins', 'sans-serif']
+      }
     },
   },
   plugins: [],
