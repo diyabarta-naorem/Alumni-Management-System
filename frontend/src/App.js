@@ -5,7 +5,7 @@ import Home from './common/home';
 function App() {
   return(
     <div>
-
+    <Header/> 
     <Navbar/>
     <Home/>
     </div>
