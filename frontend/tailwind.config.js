@@ -17,7 +17,8 @@ module.exports = {
         bluee:'#3a6ea5',
         darkBlue:'#004e98',
         grayyy:"#264653",
-        Bluee:"#3B60CA"
+        Bluee:"#3B60CA",
+        Orangee:"#FF7B02"
       },
       fontFamily:{
         popins:['Poppins', 'sans-serif']
