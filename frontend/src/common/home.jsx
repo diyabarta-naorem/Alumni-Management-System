@@ -1,6 +1,7 @@
 import alumniHomeFoto from '../assets/alumniHomeFoto.jpg';
 import alumnniFotos from '../assets/alumniFotos.jpg'
 import '../index.css';
+
 export default function Home(){
     return(
         <div className=''>
