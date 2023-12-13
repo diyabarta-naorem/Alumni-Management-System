@@ -15,8 +15,8 @@ export default function Home(){
                 </p>
                 
                 <div className='flex mx-16 mt-12 flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0'>
-                  <button className=' px-6 py-3 bg-Bluee text-white font-medium md:w-3/12'>COMMUNITY LOGIN</button>
-                  <button className=' px-6 py-3 bg-white text-black font-medium md:w-3/12'>REGISTER</button>
+                  <button className=' px-4 py-3 rounded-sm bg-Bluee text-white font-medium md:w-3/12'>COMMUNITY LOGIN</button>
+                  <button className=' px-4 py-3 rounded-sm bg-white text-black font-medium md:w-3/12'>REGISTER</button>
                 </div>
               </div>
           </div>
