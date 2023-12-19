@@ -4,6 +4,7 @@ import alumnniFotos from '../assets/alumniFotos.jpg';
 import '../index.css';
 
 export default function Home(){
+
     return(
         <div className=''>
           <div className=" relative group overflow-hidden h-screen min-h-[400px]">
