@@ -8,7 +8,7 @@ export default function Home(){
     return(
         <div className=''>
           <div className=" relative group overflow-hidden h-screen min-h-[400px]">
-          <img className="h-full w-full object-cover" alt='AlumniHomeFoto' src={alumniHomeFoto}/>
+          <img className="h-full w-full object-cover bg-black" style={{ opacity: 1 }} alt='AlumniHomeFoto' src={alumniHomeFoto}/>
           <div className="absolute mt-12 top-0 left-0 w-full text-center md:text-left max-w-[600px] md:mt-28">
                 <h1 className='mx-10 mt-28 text-white text-3xl font-bold md:mt-20 md:mx-16 md:text-6xl'>Join, Connect, Thrive</h1>
                 <h2 className='mx-10 mt-4 text-white text-lg font-medium md:mt-6 md:mx-16 md:text-2xl'>Students of Manipur Technical University</h2>
