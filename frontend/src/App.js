@@ -1,9 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './common/Navbar';
-import Contact from './common/contact';
-import Home from './common/home';
-import AboutUs from './common/aboutUs'
-import Services from './common/services';
+import Contact from './pages/contact';
+import Home from './pages/home';
+import AboutUs from './pages/aboutUs'
+import Services from './pages/services';
+import Login from './pages/login';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/login" element={<Login/>} />
 
       </Routes>
       
