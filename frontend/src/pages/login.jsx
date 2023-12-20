@@ -6,7 +6,7 @@ export default function LogIn(){
     return(
         <div class="h-screen mt-24 bg-blue-200">
         <div class="flex justify-center items-center rounded-2xl p-10 w-auto">
-            <div class="h-[640px]">
+            <div class="h-[653px]">
                 <div class=" h-full flex items-center justify-center">
                     <img src={alumni} alt="" class="max-w-1/2 rounded-l-2xl hidden object-cover w-full h-full md:block hover:shadow-xl"/>
                 </div>
