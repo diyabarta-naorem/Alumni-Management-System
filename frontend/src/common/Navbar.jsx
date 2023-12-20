@@ -17,12 +17,15 @@ export default function Navbar() {
           <span className="self-center text-base md:text-lg font-semibold whitespace-nowrap dark:text-white">MTU Alumni</span>
         </a>
         <div className="flex flex-wrap md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+         <a href="/login">
+        
           <button
             type="button"
             className="text-white px-3 py-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:px-4 md:py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Get started
           </button>
+         </a>
           <button
             onClick={toggleMenu}
             type="button"
