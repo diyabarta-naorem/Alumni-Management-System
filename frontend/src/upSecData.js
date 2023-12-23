@@ -7,6 +7,10 @@ export const UpsectionContent=[
     {
         title: "Our Service",
         description:"Unlock exclusive perks for university alumni – from career resources to networking events. Stay connected, informed, and empowered in your post-graduation journey. Join us in building a lasting bond with your alma mater."
+    },
+    {
+        title: "About Us",
+        description: "Welcome to our vibrant alumni community, where memories thrive and connections endure. Explore the shared legacy of our esteemed university, fostering lifelong friendships and professional success."
     }
 
 ]
