@@ -23,7 +23,7 @@ module.exports = {
         divBg: "#adb5bd"
       },
       fontFamily:{
-        popins:['Poppins', 'sans-serif']
+        poppins:['Poppins', 'sans-serif']
       }
     },
   },

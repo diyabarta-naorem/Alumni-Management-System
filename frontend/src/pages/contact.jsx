@@ -6,7 +6,7 @@ import { UpsectionContent } from "../upSecData";
 
 export default function Contact() {
   return (
-    <div className="mt-[54px]">
+    <div className="mt-[54px] w-full font-poppins">
       <Upsection title={UpsectionContent[0].title } description={UpsectionContent[0].description} />
       <div className="flex items-center justify-center">
         <div className="mt-8 md:relative flex flex-col items-center justify-around rounded-md shadow-lg bg-blue-100 space-x-72 w-1/2 md:flex-row md:space-y-0 ">
