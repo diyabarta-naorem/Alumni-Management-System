@@ -1,9 +1,13 @@
 import alumniHomeFoto from '../assets/alumniHomeFoto.jpg';
 import alumnniFotos from '../assets/alumniFotos.jpg';
-
+import { useNavigate } from 'react-router-dom';
 import '../index.css';
 
 export default function Home(){
+  const navigate = useNavigate();
+  const goToLogIn = () => {
+    navigate("/logIn");
+  }
 
     return(
         <div className=''>
@@ -18,8 +22,9 @@ export default function Home(){
                 </p>
                 
                 <div className='flex mx-16 mt-7 flex-col space-y-4 sm:flex-row sm:space-x-5 sm:space-y-0'>
-                  <button className=' px-4 py-2.5 rounded-md bg-Bluee text-white font-medium lg:max-w-max'>COMMUNITY LOGIN</button>
+                  <button onClick={goToLogIn} className=' px-4 py-2.5 rounded-md bg-Bluee text-white font-medium lg:max-w-max'>COMMUNITY LOGIN</button>
                   <button className=' px-4 py-2.5 rounded-md bg-white text-black font-medium lg:max-w-max'>REGISTER</button>
+                  
                 </div>
               </div>
           </div>

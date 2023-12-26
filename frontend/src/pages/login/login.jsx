@@ -1,6 +1,10 @@
 import loginPhoto from "../../assets/loginRegister.jpg";
+import { NavLink, useNavigate } from "react-router-dom";
 
-export default function LogIn() {
+export default function LogIn()
+{
+    const navigate = useNavigate();
+    navigate('/home');
   return (
     <div className="mt-16 flex justify-center w-screen md:mt-52">
       <div className="p-4 flex flex-col md:flex-row  items-center justify-center space-y-0 border md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
@@ -62,9 +66,9 @@ export default function LogIn() {
                           </label>
                         </div>
                       </div>
-                      <a href="#" className="text-sm font-medium text-primary-600 hover:underline text-blue-500">
+                      <NavLink href="#" className="text-sm font-medium text-primary-600 hover:underline text-blue-500">
                         Forgot password?
-                      </a>
+                      </NavLink>
                     </div>
                     <button
                       type="submit"
@@ -74,9 +78,9 @@ export default function LogIn() {
                     </button>
                     <p className="text-sm font-light text-blue-500">
                       Don’t have an account yet?{' '}
-                      <a href="#" className="font-medium text-blue-500 hover:text-blue-600 hover:underline">
+                      <NavLink href="#" className="font-medium text-blue-500 hover:text-blue-600 hover:underline">
                         Sign up
-                      </a>
+                      </NavLink>
                     </p>
                   </form>
                 </div>
