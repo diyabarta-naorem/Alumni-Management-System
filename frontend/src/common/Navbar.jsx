@@ -11,18 +11,18 @@ export default function Navbar() {
   };
 
   	return (
-    	<nav className="bg-white font-poppins dark:bg-gray-900 fixed w-full top-0 start-0 border-b border-gray-200 dark:border-gray-600 z-40">
+    	<nav className="bg-whitee font-poppins fixed w-full top-0 start-0 border-b border-gray-200 dark:border-gray-600 z-40">
       		<div className="w-full flex flex-row items-center justify-between mx-auto p-4">
         		<NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           			<img src={mtuLogo} className="h-8 md:h-12" alt="MTU Logo" />
-          			<span className="self-center text-base md:text-lg font-semibold whitespace-nowrap dark:text-white">MTU Alumni</span>
+          			<span className="self-center text-base md:text-lg font-semibold whitespace-nowrap text-black">MTU Alumni</span>
         		</NavLink>
         
-				<ul className="md:flex hidden p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+				<ul className="md:flex hidden p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-whitee ">
 					<li>
 						<NavLink
 						to="/"
-						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-white block"}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
 							aria-current="page"
 							onClick={toggleMenu}
 						>
@@ -33,7 +33,7 @@ export default function Navbar() {
 						<NavLink
 							to='/aboutUs'
 							onClick={toggleMenu}
-							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-white block"}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
 						>
 						About
 						</NavLink>
@@ -42,7 +42,7 @@ export default function Navbar() {
 						<NavLink
 							to='/services'
 							onClick={toggleMenu}
-						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-white block"}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
 						>
 						Services
 						</NavLink>
@@ -51,7 +51,7 @@ export default function Navbar() {
 						<NavLink
 							to='/contact'
 							onClick={toggleMenu}
-						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-white block"}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
 						>
 						Contact
 						</NavLink>
@@ -70,7 +70,7 @@ export default function Navbar() {
 					<button
 						onClick={toggleMenu}
 						type="button"
-						className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+						className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black-500 shadow-lg border border-gray-100 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-40"
 						aria-expanded={isMenuOpen}
 					>
 						<span className="sr-only">Open main menu</span>
@@ -81,14 +81,15 @@ export default function Navbar() {
 				</div>
 					
 			</div>
-			{
+				{
+				//Phone version
 				isMenuOpen ?
 				<div className={`md:hidden items-center justify-between w-full md:w-auto md:order-1`} id="navbar-sticky">
-					<ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+					<ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-whitee md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
 						<li>
 							<NavLink
 							to="/"
-							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-white block"}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
 								aria-current="page"
 								onClick={toggleMenu}
 							>
@@ -99,7 +100,7 @@ export default function Navbar() {
 							<NavLink
 								to='/aboutUs'
 								onClick={toggleMenu}
-								className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-white block"}
+								className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
 							>
 							About
 							</NavLink>
@@ -108,7 +109,7 @@ export default function Navbar() {
 							<NavLink
 								to='/services'
 								onClick={toggleMenu}
-							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-white block"}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
 							>
 							Services
 							</NavLink>
@@ -117,7 +118,7 @@ export default function Navbar() {
 							<NavLink
 								to='/contact'
 								onClick={toggleMenu}
-							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-white block"}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
 							>
 							Contact
 							</NavLink>

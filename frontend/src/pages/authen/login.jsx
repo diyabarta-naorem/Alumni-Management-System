@@ -2,7 +2,8 @@ import loginPhoto from "../../assets/loginRegister.jpg";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export default function LogIn()
-{
+{ 
+    
     const navigate = useNavigate();
     navigate('/home');
   return (
