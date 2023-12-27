@@ -18,8 +18,8 @@ export default function LogIn()
               <div className="w-full bg-white rounded-lg dark:border md:mt-0 sm:max-w-md xl:p-0">
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                   <div className="flex flex-col items-center">
-                    <h1 className="text-xl font-bold leading-tight tracking-tight md:text-2xl text-gray-900">
-                      MTU KEY
+                    <h1 className="text-xl font-bold md:text-2xl text-gray-900">
+                      MTU<div className="text-orangee">KEY</div>
                     </h1>
                     <p className="text-lg font-medium">Sign in</p>
                   </div>
