@@ -1,4 +1,4 @@
-import loginPhoto from "../../assets/loginRegister.jpg";
+import loginPhoto from "../../assets/login&register/loginRegister.jpg";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export default function LogIn()

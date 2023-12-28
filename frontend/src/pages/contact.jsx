@@ -1,5 +1,5 @@
 import React from "react";
-import mtuMap from "../assets/mtuMap.png";
+import mtuMap from "../assets/Contact/MTUmap.png";
 import Upsection from "../common/upSection";
 import { UpsectionContent } from "../upSecData";
 import { NavLink } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import mtuLogo from '../assets/Logo.png';
+import mtuLogo from '../assets/logos/Logo.png';
 import { NavLink } from "react-router-dom";
 
 
