@@ -17,9 +17,9 @@ export default function Services() {
         <Upsection title={UpsectionContent[1].title} description={UpsectionContent[1].description} />
         <section className="">
           
-          <div className="p-2 space-y-4 items-center bg-white md:space-y-0 md:px-36 md:bg-white">
+          <div className="p-2 space-y-4 bg-white flex flex-col items-center justify-center md:space-y-0 md:px-36 md:bg-white">
             
-            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white md:space-y-0 md:space-x-52">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white md:space-y-1 md:space-x-52">
               <img src={CommPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:ml-1" />
               <div className="px-5">
                 <h2 className="text-2xl font-bold text-center md:text-right md:text-5xl">Communication and Support</h2>
