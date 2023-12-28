@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import mtuLogo from '../assets/logos/Logo.png';
-import { NavLink } from "react-router-dom";
+import { NavLink,useNavigate } from "react-router-dom";
 
 
 export default function Navbar() {
@@ -8,7 +8,12 @@ export default function Navbar() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-  };
+	};
+	
+	const navigate = useNavigate();
+	const goToRegister = () => {
+		navigate("/register");
+	}
 
   	return (
     	<nav className="bg-whitee font-poppins fixed w-full top-0 start-0 border-b border-gray-200 z-40">
@@ -58,14 +63,11 @@ export default function Navbar() {
 					</li>
 				</ul>
 				<div className="flex flex-wrap items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-					<a href="/login">
-						<button
-							type="button"
+						<button onClick={goToRegister} type="button"
 							className="text-white px-3 py-1 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:px-4 md:py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 						>
 							REGISTER
 						</button>
-					</a>
 					{/* hamburger */}
 					<button
 						onClick={toggleMenu}

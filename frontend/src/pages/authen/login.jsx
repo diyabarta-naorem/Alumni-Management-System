@@ -7,7 +7,7 @@ export default function LogIn()
     const navigate = useNavigate();
     navigate('/home');
   return (
-    <div className="mt-16 flex justify-center w-screen md:mt-52">
+    <div className="mt-10 flex justify-center w-screen md:mt-32">
       <div className="p-4 flex flex-col md:flex-row  items-center justify-center space-y-0 border md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
         <div>
           <img src={loginPhoto} alt="" className="w-[500px]" />
@@ -80,7 +80,7 @@ export default function LogIn()
                     <p className="text-sm font-light text-blue-500">
                       Don’t have an account yet?{' '}
                       <NavLink href="#" className="font-medium text-blue-500 hover:text-blue-600 hover:underline">
-                        Sign up
+                        Register
                       </NavLink>
                     </p>
                   </form>
