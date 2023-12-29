@@ -46,7 +46,7 @@ export default function Contact() {
             <input type="text"
               name="subject"
               id="subject"
-              className="bg-gray-50 border text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 border-gray-600 focus:ring-blue-600" placeholder="Enter your subject" />
+              className="bg-gray-50 border text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 border-gray-600 focus:ring-blue-600" placeholder="Subject" />
             <label>Message</label>
             <textarea
               className="resize-none bg-gray-50 border text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 h-[200px] border-gray-600 focus:ring-blue-600" placeholder="Type your message here" required="#" />
