@@ -5,7 +5,7 @@ export default function AboutUs() {
     return(
       <div className="mt-[54px]">
         <Upsection title={UpsectionContent[2].title} description={UpsectionContent[2].description} />
-        <section className="bg-violet-200 p-7 md:pt-32 md:px-48 md:relative">
+        <section className="bg-blue-100 p-7 md:pt-32 md:px-48 md:relative">
           <div className=" bg-white flex-col rounded-lg p-3 md:py-10 md:flex-none ">
             <div className=" md:left-24 md:bottom-28 md:right-12 md:absolute">
               <img src={welcomePic}  alt="welcomingPic" className="shadow-lg shadow-gray-700 md:w-1/3 rounded-2xl"/>

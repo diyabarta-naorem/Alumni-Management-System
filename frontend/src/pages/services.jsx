@@ -29,7 +29,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
               <img src={ReconnectPic} alt="img1" className="w-[250px] mx-auto rounded-[80px] md:w-80 md:mr-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-left md:text-5xl">Reconnection</h2>
@@ -37,7 +37,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
               <img src={FeedbackPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:ml-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-right md:text-5xl">Feedback and Suggestions</h2>
@@ -45,7 +45,7 @@ export default function Services() {
               </div>  
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
               <img src={InfoReq} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:mr-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-left md:text-5xl">Information Requests</h2>
@@ -53,7 +53,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
               <img src={UpdatePic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:ml-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-right">Update Personal Information</h2>
@@ -61,7 +61,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
               <img src={NetworkPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:mr-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-left">Networking Opportunities</h2>
@@ -69,7 +69,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
               <img src={EventPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:ml-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-right">Event Coordination</h2>
@@ -77,7 +77,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
               <img src={CommunityPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:mr-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-left">Community Engagement</h2>
@@ -85,7 +85,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row md:bg-white">
               <img src={PrivacyPic} alt="img1" className="w-1/2 mx-auto rounded-[80px] md:w-80 md:ml-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-right">Privacy and Security</h2>
@@ -93,7 +93,7 @@ export default function Services() {
               </div>
             </div>
 
-            <div className="flex flex-col space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
+            <div className="flex flex-col border-b-2 space-y-1 items-center justify-center rounded-2xl p-4 bg-divBg md:flex-row-reverse md:bg-white">
               <img src={PromotesPic} alt="img1" className="w-[250px] h-auto mx-auto rounded-[100px] md:w-80 md:mr-1" />
               <div className="px-5 md:w-1/2">
                 <h2 className="text-2xl font-bold text-center md:text-5xl md:text-left">Promotes a Welcoming Environment:</h2>
