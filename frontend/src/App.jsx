@@ -5,6 +5,7 @@ import Home from './pages/home';
 import AboutUs from './pages/aboutUs'
 import Services from './pages/services';
 import LogIn from './pages/authen/login';
+import Footer from './common/footer';
 
 
 
@@ -17,9 +18,12 @@ function App() {
         <Route path="/aboutUs" element={<AboutUs/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/logIn" element={<LogIn/>} />
-
+        <Route path="/logIn" element={<LogIn />} />
+        
+        
+        
       </Routes>
+        <Footer />
       
     </div>
   );

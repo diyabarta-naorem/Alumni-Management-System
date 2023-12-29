@@ -35,7 +35,7 @@ export default function Home(){
           <div className='flex py-14 px-10 items-center justify-center flex-col space-y-4 md:px-20 md:flex-row md:space-x-10 md:space-y-0'>
             
             <div className='w-11/12 md:w-1/3 overflow-hidden rounded-lg shadow-md shadow-gray-700'>
-              <img className='w-full h-full object-cover shadow-md rounded-md shadow-gray-700 hover:scale-110 duration-200 ease-in-out' alt='alumniFotos' src={alumnniFotos}/>
+              <img className='w-full h-full object-cover shadow-md rounded-md shadow-gray-700 transform hover:scale-110 duration-200 ' alt='alumniFotos' src={alumnniFotos}/>
             </div>
               
               
