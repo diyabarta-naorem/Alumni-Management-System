@@ -1,4 +1,4 @@
-import loginPhoto from "../../assets/login&register/loginRegister.jpg";
+import forGotPassFoto from "../../assets/login&register/forgotPassword.jpg";
 // import { NavLink, useNavigate } from "react-router-dom";
 
 export default function ForgotPass()
@@ -9,7 +9,7 @@ export default function ForgotPass()
     <div className="mt-20 flex justify-center p-4 w-screen md:mb-[72px] mb-5">
       <div className="flex flex-col md:flex-row  items-center justify-center space-y-0 border md:p-4 md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
         <div className="w-2/5">
-          <img src={loginPhoto} alt="" className="w-full" />
+          <img src={forGotPassFoto  } alt="" className="w-full" />
         </div>
         <div className="w-full md:w-1/2 flex-1">
           <section className="font-poppins">
@@ -36,8 +36,8 @@ export default function ForgotPass()
                         required=""
                       />
                       <div className="flex flex-col md:flex-row-reverse mt-3 space-y-3 md:space-x-6 md:space-y-0">
-                        <button className=" px-3 py-2 rounded-md bg-Bluee text-white text-sm hover:bg-blue-700 md:mx-4">Reset</button>
-                        <button className=" px-3 py-2 rounded-md bg-black text-white text-sm hover:bg-blue-700 md:mx-4">Cancel</button>
+                        <button className=" px-3 py-2 border border-Bluee rounded-md bg-Bluee text-white text-sm hover:bg-blue-700 md:mx-4 duration-500">Reset</button>
+                        <button className=" px-3 py-2 border border-black rounded-md bg-black text-white text-sm hover:bg-white md:mx-4 hover:text-black duration-500">Cancel</button>
                       </div>
                     </div>
                     
