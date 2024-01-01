@@ -40,7 +40,7 @@ export default function AboutUs() {
             <div className="w-5/6 mx-auto lg:w-2/5 lg:-left-24 lg:top-14 lg:absolute mb-5">
               <img src={whoWeAre}  alt="welcomingPic" className="shadow-lg shadow-gray-700 w-full rounded-2xl"/>
             </div>
-            <div className=" flex flex-col items-center justify-center md:w-2/3 lg:w-3/6 lg:ml-96 lg:max-w-5/6 mx-auto ">
+            <div className=" flex flex-col items-center justify-center md:w-2/3 lg:w-3/6 lg:mx-96 lg:max-w-5/6 mx-auto ">
               <h1 className="text-4xl font-bold font-poppins text-center">Who we are</h1>
               <h2 className="text-2xl mt-6 font-bold font-poppins text-center w-full lg:text-left">A Legacy of Excellence</h2>
               <p className="mt-1 font-normal text-gray-700 font-poppins text-center lg:text-left">Founded in 2024, the Manipur Technical University Alumni Association has a rich history of supporting and celebrating the achievements of our graduates. Whether you graduated recently or several decades ago, you are an integral part of our legacy.

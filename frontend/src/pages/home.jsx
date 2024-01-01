@@ -6,10 +6,10 @@ import '../index.css';
 export default function Home(){
   const navigate = useNavigate();
   const goToLogIn = () => {
-    navigate("/logIn");
+    navigate("/login");
   }
   const goToRegister = () => {
-    navigate("/regist")
+    navigate("/register")
   }
 
     return(
