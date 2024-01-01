@@ -7,7 +7,7 @@ export default function LogIn()
     const navigate = useNavigate();
     navigate('/home');
   return (
-    <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32">
+    <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32 pt-10 md:pt-20">
       <div className="p-4 flex flex-col md:flex-row  items-center justify-center space-y-0 border md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
         <div>
           <img src={loginPhoto} alt="" className="w-[500px]" />
