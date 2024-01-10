@@ -4,7 +4,8 @@ import { NavLink,useNavigate } from "react-router-dom";
 
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -41,6 +42,33 @@ export default function Navbar() {
 							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
 						>
 						About
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to='/event'
+							onClick={toggleMenu}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
+						>
+						Events
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to='/gallery'
+							onClick={toggleMenu}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
+						>
+						Gallery
+						</NavLink>
+					</li>
+					<li>
+						<NavLink
+							to='/members'
+							onClick={toggleMenu}
+						className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent py-2 px-3 text-black hover:text-blue-700 block"}
+						>
+						Members
 						</NavLink>
 					</li>
 					<li>
@@ -97,7 +125,7 @@ export default function Navbar() {
 							>
 							Home
 							</NavLink>
-						</li>
+						</li>	
 						<li>
 							<NavLink
 								to='/aboutUs'
@@ -105,6 +133,33 @@ export default function Navbar() {
 								className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
 							>
 							About
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to='/event'
+								onClick={toggleMenu}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
+							>
+							Events
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to='/gallery'
+								onClick={toggleMenu}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
+							>
+							Gallery
+							</NavLink>
+						</li>
+						<li>
+							<NavLink
+								to='/members'
+								onClick={toggleMenu}
+							className={({isActive}) => isActive ? "bg-blue-700 rounded-lg py-2 px-3 text-white block": "bg-transparent rounded-lg py-2 px-3 text-black border border-gray-400 mt-1 block"}
+							>
+							Members
 							</NavLink>
 						</li>
 						<li>
@@ -124,7 +179,8 @@ export default function Navbar() {
 							>
 							Contact
 							</NavLink>
-						</li>
+								</li>
+
 					</ul>
 				</div> : null
 			}

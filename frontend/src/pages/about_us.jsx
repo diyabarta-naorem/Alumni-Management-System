@@ -64,7 +64,7 @@ export default function AboutUs() {
               <h2 className="mt-8 text-2xl font-poppins font-bold text-center lg:text-left md:w-full">Professional Development</h2>
               <p className="mt-1 font-normal text-gray-700 font-poppins text-center lg:text-left">Stay ahead in your career with access to exclusive workshops, webinars, and resources. Our commitment to lifelong learning ensures that our alumni are equipped to thrive in their professional endeavors.
               </p>
-              <h2 className="mt-8 text-2xl font-poppins font-bold text-center lg:text-left md:w-full">Networking Opportunities</h2>
+              <h2 className="mt-8 text-2xl font-poppins font-bold text-center lg:text-left md:w-full">Giving Back</h2>
               <p className="mt-1 font-normal text-gray-700 font-poppins text-center lg:text-left">Join us in giving back to the university that shaped our lives. Whether through mentorship programs, scholarships, or volunteer opportunities, there are numerous ways to contribute to the success of future generations.
               </p>
             </div>
