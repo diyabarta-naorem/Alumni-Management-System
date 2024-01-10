@@ -1,11 +1,15 @@
 import loginPhoto from "../../assets/login&register/loginRegister.jpg";
 import { NavLink, useNavigate } from "react-router-dom";
 
-export default function LogIn()
-{ 
+export default function LogIn() {
+
     
-    const navigate = useNavigate();
-    navigate('/home');
+  const navigate = useNavigate();
+  
+  const handleLogin = () => {
+    navigate("/"); //navigate after login
+  }
+
   return (
     <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32 pt-10 md:pt-20">
       <div className="p-4 flex flex-col md:flex-row  items-center justify-center space-y-0 border md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
@@ -72,7 +76,7 @@ export default function LogIn()
                       </NavLink>
                     </div>
                     <button
-                      type="submit"
+                      onClick={handleLogin}
                       className="w-full text-white bg-blue-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-blue hover:bg-blue-700 focus:ring-primary-800"
                     >
                       Sign in

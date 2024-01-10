@@ -11,6 +11,15 @@ export const UpsectionContent=[
     {
         title: "About Us",
         description: "Welcome to our vibrant alumni community, where memories thrive and connections endure. Explore the shared legacy of our esteemed university, fostering lifelong friendships and professional success."
+    },
+    {
+        title:"Events"
+    },
+    {
+        title:"Gallery"
+    },
+    {
+        title:"Members"
     }
 
 ]
