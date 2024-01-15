@@ -24,7 +24,7 @@ export default function Navbar() {
           			<span className="self-center text-base md:text-lg font-semibold whitespace-nowrap text-black">MTU Alumni</span>
         		</NavLink>
         
-				<ul className="md:flex hidden p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-whitee ">
+				<ul className="md:flex hidden p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-whitee ">
 					<li>
 						<NavLink
 						to="/"

@@ -6,7 +6,7 @@ const Members = () => {
   return (
       <div className='' >
           <Upsection title={UpsectionContent[5].title} />
-          <div className=' h-52 md:h-36 pt-5 px-6 md:pt-10 shadow-lg shadow-gray-700 md:px-4'>
+          <div className=' h-52 md:h-36 pt-5 px-6 md:pt-10 shadow-lg shadow-black md:px-4'>
               <form className='flex flex-col items-center justify-center font-poppins md:flex-row-reverse md:space-x-1'>
                 <div className=' flex flex-col space-y-3 md:space-x-3 md:space-y-0 md:flex-row'>
                       <input className='p-2 border border-black rounded-lg md:ml-3' type='text' placeholder='Search names here'></input> 
@@ -16,10 +16,10 @@ const Members = () => {
                       <div className=''>
                         <label for="batch-select">Choose batch: </label>
                             <select className='border border-black px-7 rounded-md' name="" id="pet-select">
-                                <option value="2019">   2019</option>
-                                <option value="2018">   2018</option>
-                                <option value="2017">   2017</option>
-                                <option value="2016">   2016</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
                       </select>
                       </div>
                       <div>
@@ -27,7 +27,7 @@ const Members = () => {
                             <select name="" className='border border-black rounded-md' id="pet-select">
                                 <option value="Computer Science<">Computer Science</option>
                                 <option value="Civil">Civil</option>
-                                <option value="Electonics & Communication">Electonics & Comm.</option>
+                                <option value="Electonics & Communication">Electronics & Comm.</option>
                                 <option value="Electrical">Electrical</option>
                             
                             </select>
