@@ -44,7 +44,7 @@ export default function Navbar() {
 						About
 						</NavLink>
 					</li>
-					<li>
+					{/*<li>
 						<NavLink
 							to='/event'
 							onClick={toggleMenu}
@@ -52,7 +52,7 @@ export default function Navbar() {
 						>
 						Events
 						</NavLink>
-					</li>
+					</li>*/}
 					<li>
 						<NavLink
 							to='/gallery'
@@ -135,7 +135,7 @@ export default function Navbar() {
 							About
 							</NavLink>
 						</li>
-						<li>
+						{/*<li>
 							<NavLink
 								to='/event'
 								onClick={toggleMenu}
@@ -143,7 +143,7 @@ export default function Navbar() {
 							>
 							Events
 							</NavLink>
-						</li>
+						</li>*/}
 						<li>
 							<NavLink
 								to='/gallery'

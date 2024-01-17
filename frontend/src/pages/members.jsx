@@ -14,8 +14,9 @@ const Members = () => {
                 </div>
                 <div className='flex flex-row space-x-3 items-center justify-center px-3'>
                       <div className=''>
-                        <label for="batch-select">Choose batch: </label>
-                            <select className='border border-black px-7 rounded-md' name="" id="pet-select">
+                        {/*<label for="batch-select">Choose batch: </label>*/}
+              <select className='border border-black px-7 rounded-md' name="" id="pet-select">
+                                <option value="">Batch</option>
                                 <option value="2019">2019</option>
                                 <option value="2018">2018</option>
                                 <option value="2017">2017</option>
@@ -23,8 +24,9 @@ const Members = () => {
                       </select>
                       </div>
                       <div>
-                        <label for="dept-select">Choose department: </label>
-                            <select name="" className='border border-black rounded-md' id="pet-select">
+              {/*<label for="dept-select">Choose department: </label> */}
+              <select name="" className='border border-black rounded-md' id="pet-select">
+                                <option className="" value="">Department</option>
                                 <option value="Computer Science<">Computer Science</option>
                                 <option value="Civil">Civil</option>
                                 <option value="Electonics & Communication">Electronics & Comm.</option>
@@ -35,7 +37,7 @@ const Members = () => {
                 </div>
               </form>
           </div>
-          <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 2xl:grid-cols-5 p-5 gap-y-3 gap-x-3 place-items-center bg-violet-200 '>
+          <div className='mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 2xl:grid-cols-5 p-5 gap-y-3 gap-x-2 place-items-center bg-violet-200 '>
             <Card />
             <Card />
             <Card />
@@ -54,4 +56,4 @@ const Members = () => {
   )
 }
 
-export default Members
+export default Members
