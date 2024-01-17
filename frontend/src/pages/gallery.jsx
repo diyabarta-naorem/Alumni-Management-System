@@ -45,12 +45,14 @@ import img41 from "../assets/gallery/img41.jpg"
 import img42 from "../assets/gallery/img42.jpg"
 import img43 from "../assets/gallery/img43.jpg"
 import img44 from "../assets/gallery/img44.jpg"
+import img45 from "../assets/gallery/img45.jpg"
 const Gallery = () => {
   return (
-      <div className='' >
+      <div className='' >5
         <Upsection title={UpsectionContent[4].title}/>
         <div className='columns-3 gap-3  md:w-[1300px] mx-auto space-y-3 pt-16'>
         <div className='break-inside-avoid'><img alt="1" src={img3} /></div>
+        <div className='break-inside-avoid'><img alt="1" src={img28} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img16} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img2} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img4} /></div>
@@ -63,7 +65,6 @@ const Gallery = () => {
         <div className='break-inside-avoid'><img alt="1" src={img10} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img11} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img1} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img28} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img12} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img14} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img41} /></div>
@@ -89,6 +90,7 @@ const Gallery = () => {
         <div className='break-inside-avoid'><img alt="1" src={img34} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img35} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img38} /></div>
+        <div className='break-inside-avoid'><img alt="1" src={img45} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img44} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img39} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img40} /></div>
