@@ -83,7 +83,7 @@ export default function LogIn() {
                     </button>
                     <p className="text-sm font-light text-blue-500">
                       Don’t have an account yet?{' '}
-                      <NavLink href="#" className="font-medium text-blue-500 hover:text-blue-600 hover:underline">
+                      <NavLink to="/register" className="font-medium text-blue-500 hover:text-blue-600 hover:underline">
                         Register
                       </NavLink>
                     </p>

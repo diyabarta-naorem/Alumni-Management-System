@@ -16,7 +16,8 @@ export const UpsectionContent=[
         title:"Events"
     },
     {
-        title:"Gallery"
+        title: "Gallery",
+        description:"Every click reveals a piece of our journey together, showing the love and connection we share. Welcome to a place where the past speaks to our hearts, painting the story of our legacy."
     },
     {
         title:"Members"

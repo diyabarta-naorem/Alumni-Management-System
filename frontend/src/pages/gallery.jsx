@@ -49,7 +49,7 @@ import img45 from "../assets/gallery/img45.jpg"
 const Gallery = () => {
   return (
       <div className='' >5
-        <Upsection title={UpsectionContent[4].title}/>
+        <Upsection title={UpsectionContent[4].title} description={UpsectionContent[4].description}/>
         <div className='columns-3 gap-3  md:w-[1300px] mx-auto space-y-3 pt-16'>
         <div className='break-inside-avoid'><img alt="1" src={img3} /></div>
         <div className='break-inside-avoid'><img alt="1" src={img28} /></div>

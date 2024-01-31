@@ -25,7 +25,7 @@ export default function Home(){
                 </p>
                 
                 <div className='flex mx-16 mt-7 flex-col space-y-4 sm:flex-row sm:space-x-5 sm:space-y-0'>
-                  <button onClick={goToLogIn} className=' px-4 py-2.5 rounded-md bg-Bluee text-white font-medium lg:max-w-max'>COMMUNITY LOGIN</button>
+                  <button onClick={goToLogIn} className=' px-4 py-2.5 rounded-md bg-Bluee  text-white font-medium hover:bg-blue-700 lg:max-w-max'>COMMUNITY LOGIN</button>
                   <button onClick={goToRegister} className=' px-4 py-2.5 rounded-md bg-white text-black font-medium lg:max-w-max'>REGISTER</button>
                   
                 </div>
