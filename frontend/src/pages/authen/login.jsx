@@ -11,7 +11,7 @@ export default function LogIn() {
   // }
 
   return (
-    <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32 pt-10 md:pt-20">
+    <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32 pt-10 md:pt-1">
       <div className="p-4 flex flex-col md:flex-row  items-center justify-center space-y-0 border md:w-[900px] rounded-xl shadow-lg shadow-gray-400">
         <div>
           <img src={loginPhoto} alt="" className="w-[500px]" />
@@ -19,7 +19,7 @@ export default function LogIn() {
         <div className="w-full md:w-1/2">
           <section className="font-poppins">
             <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
-              <div className="w-full bg-white rounded-lg dark:border md:mt-0 sm:max-w-md xl:p-0">
+              <div className="w-full bg-white rounded-lg dark:border md:mt-0 sm:max-w-md xl:p-0 shadow-lg">
                 <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                   <div className="flex flex-col items-center">
                     <h1 className="text-xl flex font-bold md:text-2xl text-gray-900">
