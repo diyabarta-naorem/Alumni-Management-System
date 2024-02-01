@@ -1,14 +1,14 @@
 import loginPhoto from "../../assets/login&register/loginRegister.jpg";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function LogIn() {
 
     
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   
-  const handleLogin = () => {
-    navigate("/"); //navigate after login
-  }
+  // const handleLogin = () => {
+  //   navigate("/"); //navigate after login
+  // }
 
   return (
     <div className="mt-10 flex justify-center w-screen md:mb-[72px] md:mt-32 pt-10 md:pt-20">
@@ -25,7 +25,7 @@ export default function LogIn() {
                     <h1 className="text-xl flex font-bold md:text-2xl text-gray-900">
                       MTU<div className="text-orangee ml-1 ">KEY</div>
                     </h1>
-                    <p className="text-lg font-medium">Sign in</p>
+                    <p className="text-lg font-medium">Log in</p>
                   </div>
                   <form className="space-y-4 md:space-y-6" action="#">
                     <div>
@@ -76,10 +76,10 @@ export default function LogIn() {
                       </NavLink>
                     </div>
                     <button
-                      onClick={handleLogin}
+                      
                       className="w-full text-white bg-blue-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-blue hover:bg-blue-700 focus:ring-primary-800"
                     >
-                      Sign in
+                      Log in
                     </button>
                     <p className="text-sm font-light text-blue-500">
                       Don’t have an account yet?{' '}

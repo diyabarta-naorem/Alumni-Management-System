@@ -8,6 +8,7 @@ import Gallery from './pages/gallery';
 import Members from './pages/members';
 import Services from './pages/services';
 import LogIn from './pages/authen/login';
+import Register from './pages/authen/register';
 import ForgotPass from './pages/authen/forgot_pass';
 import Footer from './common/footer';
 
@@ -28,7 +29,9 @@ function App() {
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/logIn" element={<LogIn />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/forgotpass" element={<ForgotPass />} />
+
         
         
         
