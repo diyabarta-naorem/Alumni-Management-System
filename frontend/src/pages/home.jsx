@@ -32,21 +32,20 @@ export default function Home(){
               </div>
           </div>
           <div>
-          <div className='flex py-14 px-10 items-center justify-center flex-col space-y-4 md:px-20 md:flex-row md:space-x-10 md:space-y-0'>
+           <div className='flex py-14 px-10 items-center justify-center flex-col space-y-4 md:px-20 md:flex-row md:space-x-10 md:space-y-0'>
             
-            <div className='w-11/12 md:w-1/3 overflow-hidden rounded-lg shadow-md shadow-gray-700'>
-              <img className='w-full h-full object-cover shadow-md rounded-md shadow-gray-700 transform hover:scale-110 duration-200 ' alt='alumniFotos' src={alumnniFotos}/>
-            </div>
-              
-              
+              <div className='w-11/12 md:w-1/3 overflow-hidden rounded-lg shadow-md shadow-gray-700'>
+                <img className='w-full h-full object-cover shadow-md rounded-md shadow-gray-700 transform hover:scale-110 duration-200 ' alt='alumniFotos' src={alumnniFotos}/>
+              </div>  
               <div className='text-center md:text-left flex-1'>
                 <h1 className='text-4xl font-bold md:text-5xl'>Our mission</h1>
                 <p className='mt-4 font-normal text-gray-700'>Our mission is to foster lifelong connections, celebrate the achievements of our alumni, and provide a dynamic platform that promotes engagement, philanthropy, and professional growth. Through the MTU Alumni, we aim to build a community where every graduate feels valued,
                  connected, and empowered to contribute to the ongoing success of our institution.
                 </p>
               </div>
-            </div>
+           </div>
           </div>
+          
         </div>
     )
 }
