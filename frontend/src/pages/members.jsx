@@ -50,6 +50,9 @@ const Members = () => {
             <Card />
             <Card />
             <Card />
+            <Card />
+            <Card />
+            <Card />
             
           </div>
       </div>
