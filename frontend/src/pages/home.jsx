@@ -1,7 +1,40 @@
 import alumniHomeFoto from '../assets/alumniHomeFoto.jpg';
 import alumnniFotos from '../assets/alumniFotos.jpg';
+import quotePic from '../assets/logos/quote.png';
 import { useNavigate } from 'react-router-dom';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import { CarouselData } from '../DataJs/CarouselData';
 import '../index.css';
+
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+          style={{
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(221,214,254)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+        } }
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+          style={{
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(221,214,254)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+        } }
+      onClick={onClick}
+      >    
+    </div>
+  );
+  }
 
 export default function Home(){
   const navigate = useNavigate();
@@ -11,6 +44,31 @@ export default function Home(){
   const goToRegister = () => {
     navigate("/register")
   }
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplay: true,
+    // speed: 2000,
+    autoplaySpeed: 4000,
+    cssEase: "linear",
+    pauseOnHover: true,
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
 
     return(
         <div className='font-poppins'>
@@ -45,7 +103,25 @@ export default function Home(){
               </div>
            </div>
           </div>
-          
+          <section id="testimonal" className='bg-violet-200 h-[900px] pt-10'>
+                  <div className='w-3/4 mx-auto'>
+                      <h1 className='text-4xl text-gray-800 font-bold md:text-5xl text-center'>Testimonial</h1>
+                      <p className='text-md text-gray-700 font-semibold mt-4 text-center md:text-xl'>What our alumni says</p>
+                      <div className='mt-1 m-auto md:mt-8'>
+                        <Slider {...settings}>
+                          {CarouselData.map((d) => (
+                              <div className="bg-blue-900 h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
+                                    <img alt="alumni" src={d.image} className="w-20  md:w-32  rounded-full mx-auto" />
+                                    <img alt="quote" src={quotePic} className='w-12 mx-auto rotate-180 md:w-16 ' />                                           
+                                    <p className='text-center text-sm md:text-base'>{d.quote}</p>
+                                    <p className='text-gray-200 text-sm md:text-base font-light text-center'>{d.identity}/ {d.department} ({d.batch})</p>
+                              </div>)
+                          )}
+                      </Slider>
+                  </div>
+            
+               </div>
+            </section>
         </div>
     )
 }

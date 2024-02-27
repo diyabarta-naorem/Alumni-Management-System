@@ -1,6 +1,6 @@
 import React from 'react'
 import Upsection from '../common/upSection'
-import { UpsectionContent } from "../upSecData";
+import { UpsectionContent } from "../DataJs/upSecData";
 const Event = () => {
   return (
       <div className=''>
