@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { CarouselData } from '../DataJs/CarouselData';
+import profile from '../assets/logos/avatar3.png';
 import '../index.css';
 
 
@@ -15,7 +16,7 @@ import '../index.css';
     <div
       className={className}
           style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(221,214,254)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", right: "40%", background: "rgb(30,58,138)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
         } }
       onClick={onClick}
     />
@@ -28,7 +29,7 @@ function SamplePrevArrow(props) {
     <div
       className={className}
           style={{
-              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(221,214,254)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
+              ...style, display: "block", width: "44px", height: "44px",margin:"0 -8% ", paddingTop: "14px",paddingLeft:"11px", top: "112%", left: "40%", background: "rgb(30,58,138)", boxShadow: "2px 4px 5px gray", borderRadius: "50%",
         } }
       onClick={onClick}
       >    
@@ -48,7 +49,7 @@ export default function Home(){
   var settings = {
     dots: true,
     infinite: true,
-    speed: 700,
+    speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -111,7 +112,7 @@ export default function Home(){
                         <Slider {...settings}>
                           {CarouselData.map((d) => (
                               <div className="bg-blue-900 h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
-                                    <img alt="alumni" src={d.image} className="w-20  md:w-32  rounded-full mx-auto" />
+                                    <img alt="alumni" src={profile} className="w-20  md:w-32  rounded-full mx-auto" />
                                     <img alt="quote" src={quotePic} className='w-12 mx-auto rotate-180 md:w-16 ' />                                           
                                     <p className='text-center text-sm md:text-base'>{d.quote}</p>
                                     <p className='text-gray-200 text-sm md:text-base font-light text-center'>{d.identity}/ {d.department} ({d.batch})</p>
