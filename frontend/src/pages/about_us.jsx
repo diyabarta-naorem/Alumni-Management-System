@@ -1,5 +1,5 @@
 import Upsection from "../common/upSection";
-import { UpsectionContent } from "../upSecData";
+import { UpsectionContent } from "../DataJs/upSecData";
 import welcomePic from "../assets/aboutUs/welcome.jpg";
 import missionPic from "../assets/aboutUs/mission.jpg";
 import whoWeAre from "../assets/aboutUs/whoWeAre.jpg"

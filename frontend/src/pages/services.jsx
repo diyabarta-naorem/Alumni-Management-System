@@ -1,5 +1,5 @@
 import Upsection from "../common/upSection"
-import { UpsectionContent } from "../upSecData"
+import { UpsectionContent } from "../DataJs/upSecData"
 import CommPic from "../assets/Services/communication&support.webp"
 import ReconnectPic from "../assets/Services/reconnect.jpg"
 import FeedbackPic from "../assets/Services/feedback&suggestion.jpg"

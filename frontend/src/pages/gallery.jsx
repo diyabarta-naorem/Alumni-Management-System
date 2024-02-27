@@ -1,6 +1,6 @@
 import React from 'react'
 import Upsection from '../common/upSection'
-import { UpsectionContent } from "../upSecData";
+import { UpsectionContent } from "../DataJs/upSecData";
 import img1 from "../assets/gallery/img1.JPG"
 import img2 from "../assets/gallery/img2.JPG"
 import img3 from "../assets/gallery/img3.JPG"
