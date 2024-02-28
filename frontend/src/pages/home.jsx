@@ -6,7 +6,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { CarouselData } from '../DataJs/CarouselData';
-/**{import profile from '../assets/logos/avatar3.png';}**/
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+
+import img45 from '../assets/gallery/img45.jpg';
+import img36 from '../assets/gallery/img36.JPG';
+import img3 from '../assets/gallery/img3.JPG';
+import img44 from '../assets/gallery/img44.jpg';
+import img28 from '../assets/gallery/img28.JPG';
+import img43 from '../assets/gallery/img43.jpg';
 import '../index.css';
 
 
@@ -44,6 +52,10 @@ export default function Home(){
   }
   const goToRegister = () => {
     navigate("/register")
+  }
+
+  const goToGallery = () => {
+    navigate("/gallery")
   }
 
   var settings = {
@@ -104,10 +116,25 @@ export default function Home(){
               </div>
            </div>
           </div>
+        <section id='gallery' className='bg-violet-200 m-3 pt-6 py-5 md:py-9 space-y-6 rounded-lg '>
+            <h1 className='text-4xl text-gray-800 font-bold md:text-5xl text-center'>Gallery</h1>
+            <div className='columns-3 gap-3  md:w-[700px] mx-auto space-y-3 pt-5'>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img3} /></div>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img44} /></div>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img28} /></div>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img43} /></div>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img45} /></div>
+              <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img36} /></div>
+              <div className='break-inside-avoid pl-6 md:pl-14'>
+                <button onClick={goToGallery} className='p-6 mr-4 md:p-8 bg-black text-white text-2xl md:text-6xl border-2 border-black rounded-lg shadow-lg shadow-gray-500 hover:bg-white hover:text-black duration-500'><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></button>
+              </div>
+            
+            </div>
+          </section>
           <section id="testimonal" className='bg-violet-200 h-[900px] pt-10'>
                   <div className='w-3/4 mx-auto'>
                       <h1 className='text-4xl text-gray-800 font-bold md:text-5xl text-center'>Testimonial</h1>
-                      <p className='text-md text-gray-700 font-semibold mt-4 text-center md:text-xl'>What our alumni says</p>
+                      <p className='text-md text-gray-700 font-semibold mt-4 text-center md:text-xl'>What our alumni say</p>
                       <div className='mt-1 m-auto md:mt-8'>
                         <Slider {...settings}>
                           {CarouselData.map((d) => (

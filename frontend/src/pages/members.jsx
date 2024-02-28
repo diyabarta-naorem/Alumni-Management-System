@@ -31,6 +31,7 @@ const Members = () => {
                                 <option value="Civil">Civil</option>
                                 <option value="Electonics & Communication">Electronics & Comm.</option>
                                 <option value="Electrical">Electrical</option>
+                                <option value="Electrical">MBA</option>
                             
                             </select>
                       </div>
