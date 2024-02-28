@@ -15,7 +15,7 @@ import img11 from "../assets/gallery/img11.JPG"
 import img12 from "../assets/gallery/img12.JPG"
 import img13 from "../assets/gallery/img13.JPG"
 import img14 from "../assets/gallery/img14.JPG"
-// import img15 from "../assets/gallery/img15.JPG"
+// import img15 from "../assets/gallery/img15.JPG"  
 import img16 from "../assets/gallery/img16.JPG"
 import img17 from "../assets/gallery/img17.JPG"
 import img18 from "../assets/gallery/img18.JPG"
@@ -51,50 +51,50 @@ const Gallery = () => {
       <div className='' >5
         <Upsection title={UpsectionContent[4].title} description={UpsectionContent[4].description}/>
         <div className='columns-3 gap-3  md:w-[1300px] mx-auto space-y-3 pt-16'>
-        <div className='break-inside-avoid'><img alt="1" src={img3} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img28} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img16} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img2} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img4} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img7} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img5} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img6} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img8} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img9} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img13} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img10} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img11} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img1} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img12} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img14} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img41} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img17} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img18} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img19} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img20} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img21} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img22} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img23} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img30} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img24} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img25} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img36} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img26} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img37} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img27} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img43} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img29} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img31} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img32} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img33} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img34} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img35} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img38} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img45} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img44} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img39} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img40} /></div>
-        <div className='break-inside-avoid'><img alt="1" src={img42} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img3} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img28} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img16} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img2} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img4} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img7} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img5} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img6} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img8} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img9} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img13} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img10} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img11} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img1} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img12} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img14} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img41} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img17} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img18} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img19} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img20} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img21} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img22} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img23} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img30} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img24} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img25} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img36} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img26} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img37} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img27} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img43} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img29} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img31} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img32} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img33} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img34} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img35} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img38} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img45} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img44} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img39} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img40} /></div>
+          <div className='break-inside-avoid'><img alt="1" src={img42} /></div>
         </div>
       </div>
   )
