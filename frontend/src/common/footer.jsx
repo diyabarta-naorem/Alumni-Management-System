@@ -26,11 +26,11 @@ export default function Footer() {
                 <div className='flex flex-col space-y-1'>
                     <h3 className='font-semibold text-2xl'>Contact</h3>
                     <div className='flex space-x-1'>
-                        <FontAwesomeIcon icon={faPhone} className='p-1'/>
+                        <FontAwesomeIcon icon={faPhone} className='hover:text-orange-400 p-1'/>
                         <p>(+91)1234567890</p>
                     </div>
                     <div className='flex space-x-1'>
-                        <FontAwesomeIcon icon={faEnvelope} className='p-1'/>
+                        <FontAwesomeIcon icon={faEnvelope} className='hover:text-orange-400 p-1'/>
                         <p>support@dummyEmail.org</p>
                     </div>
                 </div>

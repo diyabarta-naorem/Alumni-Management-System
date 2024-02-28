@@ -126,7 +126,7 @@ export default function Home(){
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img45} /></div>
               <div className='break-inside-avoid transform  overflow-hidden'><img alt="1" className='h-full w-full object-cover duration-200 hover:scale-110' src={img36} /></div>
               <div className='break-inside-avoid pl-6 md:pl-14'>
-                <button onClick={goToGallery} className='p-6 mr-4 md:p-8 bg-black text-white text-2xl md:text-6xl border-2 border-black rounded-lg shadow-lg shadow-gray-500 hover:bg-white hover:text-black duration-500'><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></button>
+                <button onClick={goToGallery} className='p-6 mr-4 md:p-8 bg-black text-white text-2xl md:text-6xl border-2 border-black rounded-lg shadow-lg shadow-gray-500 font-bold hover:bg-white hover:text-black duration-500'><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon></button>
               </div>
             
             </div>
