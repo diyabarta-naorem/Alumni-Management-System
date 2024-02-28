@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { CarouselData } from '../DataJs/CarouselData';
-import profile from '../assets/logos/avatar3.png';
+/**{import profile from '../assets/logos/avatar3.png';}**/
 import '../index.css';
 
 
@@ -111,8 +111,8 @@ export default function Home(){
                       <div className='mt-1 m-auto md:mt-8'>
                         <Slider {...settings}>
                           {CarouselData.map((d) => (
-                              <div className="bg-blue-900 h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
-                                    <img alt="alumni" src={profile} className="w-20  md:w-32  rounded-full mx-auto" />
+                              <div key={d.id} className="bg-blue-900 h-100 w-[600px]  p-5 pb-14 mx-auto rounded-lg flex flex-col space-y-3 text-white my-10">
+                                    <img alt="alumni" src={d.image} className="w-20  md:w-32  rounded-full mx-auto" />
                                     <img alt="quote" src={quotePic} className='w-12 mx-auto rotate-180 md:w-16 ' />                                           
                                     <p className='text-center text-sm md:text-base'>{d.quote}</p>
                                     <p className='text-gray-200 text-sm md:text-base font-light text-center'>{d.identity}/ {d.department} ({d.batch})</p>
