@@ -191,5 +191,13 @@ export const MemberData = [
         batch: "2021",
         branch: "Computer Science & Engineering",
     },
+    {
+        id: 25,
+        image: require('../assets/testimonalImg/avatar1.jpg'),
+        firstName: "Soudulou",
+        lastName: "Duomai",
+        batch: "2021",
+        branch: "Computer Science & Engineering",
+    },
     
 ]
